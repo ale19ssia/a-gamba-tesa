@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="it">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>A gamba tesa</title>
+  <link rel="stylesheet" href="style.css" />
+  <link href="https://fonts.googleapis.com/css2?family=VT323&display=swap" rel="stylesheet">
+</head>
+<body>
+  <div class="container">
+    <h1>A gamba tesa</h1>
+    <button onclick="lanciaDomanda()">LANCIA LA DOMANDA</button>
+    <div id="domanda" class="domanda-box"></div>
+
+    <textarea id="risposta" placeholder="Scrivi la tua risposta qui..."></textarea>
+    <button onclick="salvaRisposta()">SALVA RISPOSTA</button>
+
+    <h2>📔 Diario</h2>
+    <div id="storico"></div>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
